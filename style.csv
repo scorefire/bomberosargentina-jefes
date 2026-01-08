@@ -1,0 +1,242 @@
+/* RESET GENERAL */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  color: #fff;
+  padding: 12px;
+}
+
+
+/* CONTENEDOR APP */
+.app-container {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* CARD PRINCIPAL */
+
+.card {
+  background: linear-gradient(180deg, #121212, #0b0b0b);
+  border-radius: 20px;
+  padding: 28px 22px;
+  box-shadow: 0 0 22px rgba(255, 0, 0, 0.18);
+  border: 1px solid #2a2a2a;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+}
+
+
+/* LOGO */
+.logo-img {
+  width: 80px;
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.4));
+}
+
+
+/* TITULOS */
+h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #ff3b3b;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #bbb;
+  text-align: center;
+}
+h3 {
+  margin-top: 6px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+
+.card h1,
+.card h2,
+.card h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* BOTONES */
+button {
+  background: linear-gradient(135deg, #8b2c2c, #5c1a1a);
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+  display: block;
+  margin: 0 auto;   /* 👈 ESTA es la clave */
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(120,20,20,0.4);
+}
+
+/* Active */
+.menu-btn:active {
+  transform: scale(0.98);
+}
+
+/* Disabled */
+.menu-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+
+/* DESCRIPCIONES */
+.menu-desc {
+  font-size: 0.72rem;
+  color: #aaa;
+  opacity: 0.9;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 26px;
+  font-size: 0.7rem;
+  color: #777;
+  text-align: center;
+}
+
+/* ESTADOS */
+.menu-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ANIMACIONES */
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.fade-out {
+  animation: fadeOut 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+/* RESPONSIVE FINO */
+@media (max-width: 480px) {
+  .card {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 0.85rem;
+    margin-bottom: 18px;
+  }
+
+  .menu-btn {
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.65rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    display: block;
+    padding: 12px;
+  }
+
+  .app-container {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.card input {
+  font-size: 16px;
+}
+  
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  background: #1e1e1e;
+  border: 1px solid #2b2b2b;
+  border-radius: 10px;
+  color: #eee;
+  outline: none;
+  font-size: 16px; /* ← ESTA línea evita el zoom */
+}
+
