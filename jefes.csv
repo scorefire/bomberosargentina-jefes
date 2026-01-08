@@ -1,0 +1,25 @@
+usuario ,clave,personal,area,nombre
+Jefes,jefes,"80218,80225,80229,80216,80220 - Soler Marcos,80191,80216 - Galvan Oscar - Instrucción,80220 - Soler Marcos - Instrucción,80190 - Silva Luis - Instruccion,80300 - Torrens Maximiliano (tarea  observado)",Jefes de secciones,Hector Keudell 80/205 - Subcomandante (2 Jefe)
+Personal,personal,"80272,80275,80306",Orden interno - depto personal, Jonathan Giovanettone 80/248 - Oficial Auxiliar
+Tecnica,tecnica,"80161,80334",Orden interno - depto Tecnica,Mercado Santiago 80/273 - Suboficial subayudante
+Ayudantia,ayudantia,"80248,80273,80280,80309, 80280 - Maidana Ezequiel - Roperia",Orden interno - Ayudantia,Varela Marcos 80/218 - Oficial Auxiliar
+Vehiculos,vehiculos,80307,Orden interno - seccion vehiculos,Garrote Juan 80/225 - Oficial Auxiliar
+Vehiculos2,vehiculos2,"80319,80326,80332",Orden interno - dto vehiculos,Torres Jonathan 80/307 - Bombero
+Matyquipos,matyequipos,"80227,80252,80190,80271",Orden interno - Materiales y equipos,Dornell Roberto 80/229 - Suboficial Ayudante Principal
+Materiales,materiales,"80301,80308,80321",Orden interno - Materiales  ,Cava Nicolas 80/252 - Suboficial Ayudante de Primera
+Autonomos,autonomos,80327,Orden Interno - dto. Autonomos, Garcia Alejandro 80/227 - Suboficial Ayudante
+Intendencia,intendencia,"80217,80263,80235,80228,80274,80285,80232,80258,80172,80260,80286,80297,80312,80316,80317,80318,80322,80328,80329,80331,80335,80336,80338,80330 - Morales Gisela - (Adjunto)",Dto. Intendencia,Bon Andrea 80/190 - Oficial Auxiliar
+Capacitacion,capacitacion,"80224,80226",Orden interno - seccion Instrucción,Galvan Oscar 80/216 - Oficial Auxiliar
+Instruccion,instruccion,"80218,80190,80248,80217,80224,80263,80229,80235,80226,80227,80228,80252,80272,80273,80274,80275,80277,80299,80280,80285,80301,80161,80232,80258,80172,80260,80271,80286,80297,80300,80306,80307,80308,80309,80312,80316,80317,80318,80319,80321,80322,80326,80327,80328,80329,80330,80331,80332,80334,80335,80336,80338,80299 - Ciriza Alejo - (Adjunto) Orden Interno,80128 - Vallejos Carlos (R) (Adjunto)",Orden interno - Dto Instrucción,Alzogaray Angel 80/248 - Suboficial Ayudante Principal
+Jerarquica,jerarquica,80277,Orden interno - Cap. Jerarquica,Muñoz Juliana 80/226 - Suboficial Ayudante de Primera
+Comunicaciones,comunicaciones,"TOTAL TONOS HT,80218,80191,80190,80225,80216,80248,80217,80224,80263,80229,80235,80226,80227,80228,80252,80272,80273,80274,80275,80277,80299,80280,80285,80301,80161,80232,80258,80172,80260,80271,80286,80297,80300,80306,80307,80308,80309,80312,80316,80317,80318,80319,80321,80322,80326,80327,80328,80329,80330,80331,80332,80334,80335,80336,80338",Puntos HT,Gabriel Coubet 80/271 - Bombero
+Roperia,roperia,"80218,80191,80190,80225,80216,80248,80217,80224,80263,80229,80235,80226,80227,80228,80252,80272,80273,80274,80275,80277,80299,80285,80301,80161,80232,80258,80172,80260,80271,80286,80297,80300,80306,80307,80308,80309,80312,80316,80317,80318,80319,80321,80322,80326,80327,80328,80329,80330,80331,80332,80334,80335,80336,80338",Roperia,Maidana Ezequiel 80/280 - Suboficial subayudante 
+Especiales,especiales,"80218,80191,80190,80225,80216,80248,80217,80224,80263,80229,80235,80226,80227,80228,80252,80272,80273,80274,80275,80277,80299,80280,80285,80301,80161,80232,80258,80172,80260,80271,80286,80297,80300,80306,80307,80308,80309,80312,80316,80317,80318,80319,80321,80322,80326,80327,80328,80329,80330,80331,80332,80334,80335,80336,80338",Puntos especiales,Hector Keudell 80/205 - Subcomandante (2 Jefe)
+Destacamento2,destacamento2,"80339,80340,80341,80342,80343,80344,80345,80346,80347,80348,80349,80350",Instrucción destacamento 2 - Rio Tala,Silva Luis 80/191 - Oficial Auxiliar
+Guardia1,guardia1,"80263,80226,80228,80252,80272,80299,80280,80301,80306,80307,80308,80316,80317,80318,80321,80322,80331,80332,80334,80335,80338,80326,80330",Guardia - Grupo 1,Dornell Roberto 80/229 - Suboficial Ayudante Principal
+Guardia2,guardia2,"80235,80277,80227,80273,80274,80275,80285,80224,80161,80172,80232,80271,80286,80309,80312,80327,80328,80329,80258,80260,80297,80300,80319,80336",Guardia - Grupo 2,Noguera Vanesa 80/217 - Suboficial Ayudante Principal
+
+
+
+
+
