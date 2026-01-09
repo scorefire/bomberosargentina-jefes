@@ -55,19 +55,21 @@ body {
 /* TITULOS */
 h1 {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #ff3b3b;
-  letter-spacing: 0.5px;
-  text-align: center;
 }
 
 h2 {
   margin-top: 6px;
-  margin-bottom: 24px;
-  font-weight: 400;
-  font-size: 1rem;
-  color: #bbb;
-  text-align: center;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+.fire {
+  color: #ff2a2a; /* rojo fuego */
+  font-style: italic;
+  font-weight: 500;
 }
 h3 {
   margin-top: 6px;
