@@ -168,21 +168,6 @@ footer {
   animation: fadeIn 0.5s ease-out;
 }
 
-.fade-out {
-  animation: fadeOut 0.4s ease forwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @keyframes fadeOut {
   from {
     opacity: 1;
@@ -206,16 +191,6 @@ footer {
 
   footer {
     font-size: 0.75rem;
-  }
-}
-
-  .menu-btn {
-    padding: 14px;
-    font-size: 1rem;
-  }
-
-  footer {
-    font-size: 0.65rem;
   }
 }
 
@@ -246,18 +221,6 @@ textarea {
   color: #eee;
   outline: none;
   font-size: 16px; /* ← ESTA línea evita el zoom */
-}
-
-  html {
-  font-size: 16px;
-}
-
-button {
-  font-size: 1rem;
-}
-
-.menu-desc {
-  font-size: 0.85rem;
 }
 
 @media (max-width: 480px) {
