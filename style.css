@@ -134,7 +134,9 @@ button:hover {
   box-shadow: none;
   transform: none;
 }
-
+.hidden {
+  display: none;
+}
 
 /* DESCRIPCIONES */
 .menu-desc {
