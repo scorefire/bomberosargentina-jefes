@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+html {
+  font-size: 16px;
+}
 
 /* BODY */
 body {
@@ -110,6 +113,7 @@ button {
   padding: 14px;
   color: #fff;
   font-weight: 600;
+   font-size: 1rem;
   cursor: pointer;
   transition: transform .2s ease, box-shadow .2s ease;
   display: block;
@@ -139,7 +143,7 @@ button:hover {
 
 /* DESCRIPCIONES */
 .menu-desc {
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   color: #aaa;
   opacity: 0.9;
 }
@@ -192,23 +196,22 @@ footer {
 
 /* RESPONSIVE FINO */
 @media (max-width: 480px) {
-  .card {
-    padding: 20px 16px;
-    border-radius: 16px;
-  }
-
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   h2 {
-    font-size: 0.85rem;
-    margin-bottom: 18px;
+    font-size: 0.95rem;
   }
+
+  footer {
+    font-size: 0.75rem;
+  }
+}
 
   .menu-btn {
     padding: 14px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   footer {
@@ -244,4 +247,37 @@ textarea {
   outline: none;
   font-size: 16px; /* ← ESTA línea evita el zoom */
 }
+
+  html {
+  font-size: 16px;
+}
+
+button {
+  font-size: 1rem;
+}
+
+.menu-desc {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    max-width: 520px;
+  }
+}
+
 
