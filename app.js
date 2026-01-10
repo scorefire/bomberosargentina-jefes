@@ -3,10 +3,11 @@ let jefeActivo = null;
 let personalActivo = [];
 let nombresPersonal = {}; // Mapa de ID a nombre
 
-// Cargar CSV de personal desde GitHub
+// Cargar CSV de personal desde sheet
 async function cargarPersonal() {
   try {
-    const response = await fetch('https://bomberosc80-app.github.io/calificacionesc80/personal.csv');
+    const response = await fetch( 
+      "https://docs.google.com/spreadsheets/d/1-ECTfgK8SMfShxI-Likx7wwqtDvrZJj8NYGSNlqRbro/export?format=csv&gid=0");
     let texto = await response.text();
     texto = texto.replace(/^\uFEFF/, '');
     const lineas = texto.trim().split('\n').slice(1);
@@ -25,7 +26,8 @@ async function cargarPersonal() {
 // Cargar CSV de jefes desde GitHub
 async function cargarJefes() {
   try {
-    const response = await fetch('https://bomberosc80-app.github.io/calificacionesc80/jefes.csv');
+    const response = await fetch(
+       "https://docs.google.com/spreadsheets/d/1mzFPSSLO2fCa71yVcj2iyfSdHOHY-Z0ZKE5p-UDimF4/export?format=csv&gid=0");
     let texto = await response.text();
     texto = texto.replace(/^\uFEFF/, '');
     const lineas = texto.trim().split('\n').slice(1);
